@@ -1,0 +1,5 @@
+models:
+    dbt_quest:
+        staging:
+            +materialized:view
+            
